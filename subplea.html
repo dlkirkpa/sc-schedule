@@ -8,12 +8,13 @@
 	<body>
 		<div type="flex-container" align="center">
 		<form name="subPlea" method="post" onsubmit="return validateDate()" action="subpleasubmitted.php">
-			<h2>Sub Plea Request Form</h2><label>Campus:</label>
+			<h2>Sub Plea Request Form</h2>
+			<label>Campus:</label>
 				<select id="campus" name="campus[]" required>
-				<option value="" selected disabled hidden>Select Location</option>
-				<option value="IUB">IUB</option>
-				<option value="IUPUI">IUPUI</option>
-			</select>
+					<option value="" selected disabled hidden>Select Location</option>
+					<option value="IUB">IUB</option>
+					<option value="IUPUI">IUPUI</option>
+				</select>
 			<br>
 			<label>Location: (select all that apply)</label>
 				<select id="location" name="location[]" multiple required>
