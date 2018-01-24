@@ -140,10 +140,8 @@ function get_groups($user) { //source code here: https://samjlevy.com/php-ldap-m
     return $output;
 }
 
-
 //grab the username from the session
 $CAS_username = $_SESSION['user'];
-
 
 //query the groups, these are put into an array.  Create an empty array.
 $LDAP_groups = get_groups("$CAS_username");
@@ -157,14 +155,12 @@ foreach($LDAP_groups as $a) {
 }
 
 //these are the groups that are allowed to access the page.  You can find the groups in ADUC.  One thing that is important about these: you need to get the lowest group, higher level nested groups do not get pulled up in the groups query.  E.g. IU-SCFL-ALL-sec will not work, because its members are other groups.
-$approved_groups = ["IU-SCFL-PA-sec", "IU-SCFL-SA-sec", "IU-SCFL-Consultant-sec", "IU-SC-QAT-Specialist-sec", "IU-SC-QAT-Coordinator-sec"];
-
+$approved_groups = ["IU-SCFL-PA-sec", "IU-SCFL-SA-sec"];
 
 //This function compares two arrays for intersection, returns true if intersection occurs.
 function in_array_any($needles, $haystack) {
     return !!array_intersect($needles, $haystack);
 }
-
 
 //This checks if the arrays have intersection, if false then the page dies.
 if(!in_array_any($approved_groups, $groups_explode) == true) {
