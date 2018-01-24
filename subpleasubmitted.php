@@ -1,22 +1,18 @@
+<?php include("cas_with_ldap_auth.php"); ?>
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Sub Plea Submitted</title>
 	<link rel="stylesheet" type="text/css" href="subplea.css">
-</head>
 <body>
 <?php
 
 
 
-//Unvalidated variables.  One thing to note in the HTML file, 
-//if the name of the variable has bracket (e.g. campus[]) then 
-//it is a data type array that needs to be parsed into a string.
-//This is done farther down in the code.
-
+//Unvalidated variables
 $campus = $_POST["campus"];
 $location = $_POST["location"];
-$position = $_POST["position"];
+$position = $_POST["position"]; //returns data type, need to make sure to extract values
 $shift_start = $_POST["shiftStart"];
 $shift_end = $_POST["shiftEnd"];
 $username = $_POST["username"];
@@ -144,7 +140,6 @@ foreach ($position as $value) {
 	$position_string .= ' ' . $value;
 }
 
-//This is the message text.  Anything changed here will modify the text the recipient sees.
 $msg = "To claim this request, please click Reply and state:
   'I would like to claim this request'\n
 
@@ -192,7 +187,6 @@ fclose($append_to_log);
 		<h2>Sub Plea Submitted</h2>
 		You have successfully submitted a subplea request.  Please check your inbox to confirm that you have received the sub plea request (it may be in your sub plea folder).  If you have not received the request within 5 minutes, please consult with a supervisor.<br><br>
 
-		To make another request <a href="subplea.html">click here</a>.
-	</form>
+		To make another request <a href="subplea.html">click here</a>.</form>
 </body>
 </html>

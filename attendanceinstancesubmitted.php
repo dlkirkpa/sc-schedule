@@ -1,3 +1,4 @@
+<?php include("cas_with_ldap_auth.php"); ?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -22,6 +23,7 @@ $submitted_by = $_POST["submittedby"];
 $tardies = $_POST["tardies"];
 $absences = $_POST["absences"];
 $no_call_int = $_POST["nocallint"];
+
 
 //Validated variables, the foreach loops run the validation functions for the arrays
 $assignee = validate_text($assignee);
@@ -75,7 +77,9 @@ function validate_no_call($data) {
 	}
 }
 
-//email to
+//email to and CC variables getting set
+$mail_to = "$assignee" . "@iu.edu";
+
 $bl_supervisors = "BL-SCFL-Supervisor@exchange.iu.edu";
 $in_supervisors = "IN-SCFL-Supervisor@exchange.iu.edu";
 
@@ -111,15 +115,15 @@ foreach ($no_call as $value) {
 }
 
 //This is the message text.  Anything changed here will modify the text the recipient sees.
-$msg = "An attendance instance has been recorded as follows:
+$msg = "An attendance instance has been recorded as follows:\n
 
-Assignee: 		$assignee
-Date:			$date
-Campus:			$campus_string
-Event:			$instance_event_string
-No Call?:		$no_call_string
+Assignee:	$assignee
+Date:		$date
+Campus:	$campus_string
+Event:		$instance_event_string
+No Call?:	$no_call_string
 Description:	$description
-Submitted By: 	$submitted_by\n
+Submitted By:	$submitted_by\n
 
 Attendance Summary
 Total Tardy:	$tardies
@@ -128,15 +132,15 @@ Total No Call:	$no_call_int\n
 
 To appeal this instance, REPLY-ALL to this email message with an explanation of why you are appealing it.
 
--UITS Support Center"
+-UITS Support Center";
 
 $headers= "From: $campus_scheduler" . "@iu.edu" . "\r\n" .
-	'CC: ' . $campus_string;
+	'CC: ' . "dlkirkpa@iu.edu";
 
 $msg = wordwrap($msg, 70);
 
 //send email
-mail($assignee, "Attendance Notification: " . "$instance_event_string", $msg, $headers);
+//mail($mail_to, "Attendance Notification: " . "$instance_event_string", $msg, $headers);
 
 
 ?>
@@ -148,6 +152,7 @@ mail($assignee, "Attendance Notification: " . "$instance_event_string", $msg, $h
 
 		To make another instance <a href="attendanceinstance.html">click here</a>.
 	</form>
+</div>
 
 </body>
 </html>
