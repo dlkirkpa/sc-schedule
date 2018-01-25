@@ -155,7 +155,7 @@ foreach($LDAP_groups as $a) {
 }
 
 //these are the groups that are allowed to access the page.  You can find the groups in ADUC.  One thing that is important about these: you need to get the lowest group, higher level nested groups do not get pulled up in the groups query.  E.g. IU-SCFL-ALL-sec will not work, because its members are other groups.
-$approved_groups = ["IU-SCFL-PA-sec", "IU-SCFL-SA-sec"];
+$approved_groups = ["IU-SCFL-PA-sec", "IU-SCFL-SA-sec", "IU-SC-QAT-Specialist-sec", "IU-SC-QAT-Coordinator-sec"];
 
 //This function compares two arrays for intersection, returns true if intersection occurs.
 function in_array_any($needles, $haystack) {

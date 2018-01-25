@@ -134,14 +134,34 @@ To appeal this instance, REPLY-ALL to this email message with an explanation of 
 
 -UITS Support Center";
 
-$headers= "From: $campus_scheduler" . "@iu.edu" . "\r\n" .
-	'CC: ' . "dlkirkpa@iu.edu";
+$headers= "From: $campus_scheduler" . "\r\n" .
+	'CC: ' . "$campus_supervisor";
 
 $msg = wordwrap($msg, 70);
 
 //send email
-//mail($mail_to, "Attendance Notification: " . "$instance_event_string", $msg, $headers);
+mail($mail_to, "Attendance Notification: " . "$instance_event_string", $msg, $headers);
 
+//creates a pseudo-log file for sub plea requests
+
+$timestamp = date('r');
+
+$append_to_log = fopen("attendancelog.txt", "a") or die("couldn't open");
+flock($append_to_log, LOCK_EX);
+$log_text = "\n$timestamp
+	$assignee
+	$date
+	$campus_string
+	$instance_event_string
+	$no_call_string
+	$description
+	$submitted_by
+	tardies: $tardies
+	absences: $absences
+	no call: $no_call_int\n";
+fwrite($append_to_log, $log_text);
+flock($append_to_log, LOCK_UN);
+fclose($append_to_log);
 
 ?>
 
@@ -150,7 +170,7 @@ $msg = wordwrap($msg, 70);
 		<h2>Attendance Instance Submitted</h2>
 		You have successfully submitted an attendance instance.  Please check your inbox to confirm that you have received the attendance instance.  If you have not received the instance within 5 minutes, please email me.<br><br>
 
-		To make another instance <a href="attendanceinstance.html">click here</a>.
+		To make another instance <a href="attendanceinstance.php">click here</a>.
 	</form>
 </div>
 

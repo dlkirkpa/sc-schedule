@@ -187,6 +187,6 @@ fclose($append_to_log);
 		<h2>Sub Plea Submitted</h2>
 		You have successfully submitted a subplea request.  Please check your inbox to confirm that you have received the sub plea request (it may be in your sub plea folder).  If you have not received the request within 5 minutes, please consult with a supervisor.<br><br>
 
-		To make another request <a href="subplea.html">click here</a>.</form>
+		To make another request <a href="subplea.php">click here</a>.</form>
 </body>
 </html>

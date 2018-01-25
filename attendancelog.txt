@@ -1,0 +1,24 @@
+
+Thu, 25 Jan 2018 10:30:53 -0500
+	dlkirkpa
+	01/26/2018
+	IUB
+	Absence
+	No
+	one more test, i do it for the logs
+	dlkirkpa
+	tardies: 0
+	absences: 1
+	no call: 0
+
+Thu, 25 Jan 2018 11:25:16 -0500
+	chparson
+	01/25/2018
+	IUPUI
+	Absence
+	No
+	Testing....
+	chparson
+	tardies: 0
+	absences: 1
+	no call: 0
