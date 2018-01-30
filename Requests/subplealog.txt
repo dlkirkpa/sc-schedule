@@ -1,0 +1,1016 @@
+
+Tue, 12 Dec 2017 14:16:49 -0500
+	njswift
+	 IUPUI
+	 ICTC
+	 Phones
+	12/29/2017 12:00 PM
+	12/29/2017 06:00 PM
+
+Tue, 12 Dec 2017 19:01:11 -0500
+	kbeitvas
+	 IUB
+	 CIB
+	 Phones
+	12/26/2017 04:00 PM
+	12/26/2017 07:00 PM
+
+Wed, 13 Dec 2017 17:41:03 -0500
+	cbrock7
+	 IUB
+	 CIB
+	 Phones
+	12/26/2017 06:00 PM
+	12/26/2017 10:00 PM
+
+Wed, 13 Dec 2017 17:42:25 -0500
+	cbrock7
+	 IUB
+	 CIB
+	 Phones
+	12/27/2017 06:00 PM
+	12/27/2017 10:00 PM
+
+Wed, 13 Dec 2017 17:43:32 -0500
+	cbrock7
+	 IUB
+	 CIB
+	 Phones
+	12/28/2017 06:00 PM
+	12/28/2017 10:00 PM
+
+Thu, 14 Dec 2017 01:08:45 -0500
+	Williday
+	 IUPUI
+	 ICTC
+	 Phones
+	12/17/2017 09:00 AM
+	12/17/2017 02:30 PM
+
+Thu, 14 Dec 2017 14:02:05 -0500
+	bdfalcon
+	 IUPUI
+	 ICTC
+	 Phones
+	01/02/2018 10:00 AM
+	01/02/2018 10:00 PM
+
+Fri, 15 Dec 2017 13:03:09 -0500
+	megmiddl
+	 IUPUI
+	 ICTC
+	 Phones
+	01/24/2018 09:30 AM
+	01/24/2018 11:30 AM
+
+Fri, 15 Dec 2017 13:05:10 -0500
+	megmiddl
+	 IUPUI
+	 ICTC
+	 Phones
+	01/29/2018 09:30 AM
+	01/29/2018 11:30 AM
+
+Sat, 16 Dec 2017 08:19:32 -0500
+	stnortha
+	 IUPUI
+	 ICTC
+	 Phones
+	12/30/2017 08:00 AM
+	12/30/2017 01:00 PM
+
+Sun, 17 Dec 2017 11:14:54 -0500
+	beardjay
+	 IUB
+	 CIB
+	 Phones
+	12/29/2017 11:00 AM
+	12/29/2017 05:00 PM
+
+Mon, 18 Dec 2017 14:53:41 -0500
+	twodell
+	 IUB
+	 CIB
+	 Phones
+	12/21/2017 02:00 PM
+	12/21/2017 07:00 PM
+
+Mon, 18 Dec 2017 22:03:56 -0500
+	Williday
+	 IUPUI
+	 ICTC
+	 Phones
+	12/19/2017 10:00 AM
+	12/19/2017 02:00 PM
+
+Wed, 20 Dec 2017 00:01:44 -0500
+	Williday
+	 IUPUI
+	 ICTC
+	 Phones
+	12/21/2017 09:00 AM
+	12/21/2017 02:00 PM
+
+Wed, 20 Dec 2017 13:35:14 -0500
+	
+	
+	
+	
+	12/20/2017 01:35 PM
+	12/20/2017 01:35 PM
+
+Wed, 20 Dec 2017 13:35:56 -0500
+	dlkirkpa
+	 IUB
+	 CIB
+	 Supervisor
+	12/21/2017 12:12 AM
+	12/21/2017 01:12 AM
+
+Fri, 22 Dec 2017 11:54:13 -0500
+	beardjay
+	 IUB
+	 CIB
+	 Phones
+	01/06/2018 08:00 AM
+	01/06/2018 01:00 PM
+
+Sun, 24 Dec 2017 11:46:46 -0500
+	cboyll
+	 IUB
+	 LC
+	 Carry-in
+	02/11/2018 08:00 AM
+	02/11/2018 05:00 PM
+
+Wed, 03 Jan 2018 13:20:30 -0500
+	Williday
+	 IUPUI
+	 ICTC
+	 Phones
+	01/11/2018 09:00 AM
+	01/11/2018 02:00 PM
+
+Wed, 03 Jan 2018 13:21:24 -0500
+	Williday
+	 IUPUI
+	 ICTC
+	 Phones
+	01/18/2018 09:00 AM
+	01/18/2018 02:00 PM
+
+Thu, 04 Jan 2018 13:01:01 -0500
+	pabryant
+	 IUPUI
+	 ICTC CC
+	 Phones Walk-in Crimson Card
+	03/05/2018 12:00 PM
+	03/05/2018 05:00 PM
+
+Thu, 04 Jan 2018 13:02:33 -0500
+	pabryant
+	 IUPUI
+	 ICTC CC
+	 Phones Walk-in Crimson Card
+	03/06/2018 08:00 AM
+	03/06/2018 01:00 PM
+
+Thu, 04 Jan 2018 13:03:48 -0500
+	pabryant
+	 IUPUI
+	 ICTC CC
+	 Phones Walk-in Crimson Card
+	03/07/2018 12:00 PM
+	03/07/2018 05:00 PM
+
+Thu, 04 Jan 2018 13:05:23 -0500
+	pabryant
+	 IUPUI
+	 ICTC CC
+	 Phones Walk-in Crimson Card
+	03/08/2018 08:00 AM
+	03/08/2018 05:00 PM
+
+Thu, 04 Jan 2018 13:07:24 -0500
+	pabryant
+	 IUPUI
+	 ICTC CC
+	 Phones Walk-in Crimson Card
+	03/09/2018 05:00 PM
+	03/09/2018 10:00 PM
+
+Fri, 05 Jan 2018 10:06:40 -0500
+	nsinghai
+	 IUPUI
+	 ICTC
+	 Phones
+	01/19/2018 05:00 PM
+	01/19/2018 10:00 PM
+
+Fri, 05 Jan 2018 10:07:35 -0500
+	nsinghai
+	 IUPUI
+	 ICTC
+	 Phones
+	01/20/2018 12:00 PM
+	01/20/2018 05:00 PM
+
+Fri, 05 Jan 2018 10:09:17 -0500
+	nsinghai
+	 IUPUI
+	 ICTC
+	 Phones
+	01/21/2018 11:00 AM
+	01/21/2018 04:00 PM
+
+Fri, 05 Jan 2018 10:10:09 -0500
+	nsinghai
+	 IUPUI
+	 ICTC
+	 Phones
+	01/23/2018 11:00 AM
+	01/23/2018 04:00 PM
+
+Fri, 05 Jan 2018 13:39:20 -0500
+	
+	
+	
+	
+	01/05/2018 01:39 PM
+	01/05/2018 01:39 PM
+
+Fri, 05 Jan 2018 13:40:23 -0500
+	moso
+	 IUPUI
+	 ICTC
+	 Phones
+	03/12/2018 12:00 PM
+	03/12/2018 05:00 PM
+
+Fri, 05 Jan 2018 13:41:19 -0500
+	moso
+	 IUPUI
+	 ICTC
+	 Phones
+	03/13/2018 12:00 PM
+	03/13/2018 05:00 PM
+
+Fri, 05 Jan 2018 13:42:06 -0500
+	moso
+	 IUPUI
+	 ICTC
+	 Phones
+	03/15/2018 05:00 PM
+	03/15/2018 10:00 PM
+
+Fri, 05 Jan 2018 13:42:45 -0500
+	moso
+	 IUPUI
+	 ICTC CC
+	 Phones
+	03/16/2018 08:00 AM
+	03/16/2018 10:00 PM
+
+Fri, 05 Jan 2018 13:45:24 -0500
+	moso
+	 IUPUI
+	 ICTC
+	 Phones
+	03/09/2018 08:00 AM
+	03/09/2018 01:00 PM
+
+Fri, 05 Jan 2018 14:37:59 -0500
+	emericks
+	 IUB
+	 LC
+	 Walk-in
+	01/07/2018 12:00 PM
+	01/07/2018 05:00 PM
+
+Fri, 05 Jan 2018 20:07:33 -0500
+	tkirtman
+	 IUB
+	 CIB
+	 Supervisor
+	01/23/2018 08:00 AM
+	01/23/2018 12:00 PM
+
+Fri, 05 Jan 2018 20:10:59 -0500
+	
+	
+	
+	
+	01/05/2018 08:10 PM
+	01/05/2018 08:10 PM
+
+Fri, 05 Jan 2018 20:19:51 -0500
+	carmes
+	 IUB
+	 LC
+	 Walk-in
+	02/26/2018 06:00 PM
+	02/27/2018 12:00 AM
+
+Fri, 05 Jan 2018 20:39:34 -0500
+	carmes
+	 IUB
+	 LC
+	 Walk-in
+	02/28/2018 06:00 PM
+	03/01/2018 12:00 AM
+
+Fri, 05 Jan 2018 20:53:09 -0500
+	carmes
+	 IUB
+	 CIB
+	 Phones
+	03/01/2018 08:00 PM
+	03/02/2018 12:00 AM
+
+Fri, 05 Jan 2018 21:23:52 -0500
+	carmes
+	 IUB
+	 CIB
+	 Phones
+	03/04/2018 08:00 PM
+	03/05/2018 12:00 AM
+
+Fri, 05 Jan 2018 21:36:11 -0500
+	carmes
+	 IUB
+	 LC
+	 Walk-in
+	03/05/2018 08:00 PM
+	03/06/2018 12:00 AM
+
+Fri, 05 Jan 2018 22:01:10 -0500
+	carmes
+	 IUB
+	 CIB
+	 Phones
+	02/25/2018 08:00 PM
+	02/26/2018 12:00 AM
+
+Mon, 08 Jan 2018 14:54:59 -0500
+	jorhines
+	 IUB
+	 LC
+	 Walk-in
+	01/15/2018 11:30 AM
+	01/15/2018 08:00 PM
+
+Mon, 08 Jan 2018 22:19:29 -0500
+	kjherman
+	 IUB
+	 CIB
+	 Supervisor
+	03/10/2018 04:00 PM
+	03/11/2018 12:00 AM
+
+Mon, 08 Jan 2018 22:20:00 -0500
+	kjherman
+	 IUB
+	 CIB
+	 Supervisor
+	03/11/2018 04:00 PM
+	03/12/2018 12:00 AM
+
+Mon, 08 Jan 2018 22:20:20 -0500
+	kjherman
+	 IUB
+	 CIB
+	 Supervisor
+	03/12/2018 04:00 PM
+	03/13/2018 12:00 AM
+
+Mon, 08 Jan 2018 22:20:30 -0500
+	kjherman
+	 IUB
+	 CIB
+	 Supervisor
+	03/13/2018 04:00 PM
+	03/14/2018 12:00 AM
+
+Mon, 08 Jan 2018 22:20:43 -0500
+	kjherman
+	 IUB
+	 LC
+	 Supervisor
+	03/14/2018 04:00 PM
+	03/15/2018 12:00 AM
+
+Mon, 08 Jan 2018 22:21:02 -0500
+	kjherman
+	 IUB
+	 CIB
+	 Supervisor
+	03/17/2018 04:00 PM
+	03/18/2018 12:00 AM
+
+Mon, 08 Jan 2018 22:21:13 -0500
+	kjherman
+	 IUB
+	 CIB
+	 Supervisor
+	03/18/2018 04:00 PM
+	03/19/2018 12:00 AM
+
+Tue, 09 Jan 2018 12:21:27 -0500
+	thlevine
+	 IUB
+	 LC
+	 Walk-in
+	01/28/2018 06:00 PM
+	01/29/2018 12:00 AM
+
+Tue, 09 Jan 2018 18:53:34 -0500
+	skmccart
+	 IUB
+	 CIB
+	 Phones
+	01/18/2018 04:30 PM
+	01/18/2018 07:00 PM
+
+Wed, 10 Jan 2018 08:50:14 -0500
+	hudsonjl
+	 IUB
+	 CIB
+	 Supervisor
+	03/11/2018 08:00 AM
+	03/11/2018 06:00 PM
+
+Wed, 10 Jan 2018 08:51:22 -0500
+	hudsonjl
+	 IUB
+	 CIB
+	 Supervisor
+	03/12/2018 08:00 AM
+	03/12/2018 05:00 PM
+
+Wed, 10 Jan 2018 08:52:01 -0500
+	hudsonjl
+	 IUB
+	 LC
+	 Supervisor
+	03/13/2018 08:00 AM
+	03/13/2018 05:00 PM
+
+Wed, 10 Jan 2018 08:52:34 -0500
+	hudsonjl
+	 IUB
+	 CIB
+	 Supervisor
+	03/14/2018 08:00 AM
+	03/14/2018 05:00 PM
+
+Wed, 10 Jan 2018 08:53:28 -0500
+	hudsonjl
+	 IUB
+	 CIB
+	 Supervisor
+	03/15/2018 08:00 AM
+	03/15/2018 04:00 PM
+
+Wed, 10 Jan 2018 20:19:04 -0500
+	ndnafzig
+	 IUPUI
+	 ICTC
+	 Phones Walk-in
+	03/12/2018 12:00 PM
+	03/12/2018 05:00 PM
+
+Wed, 10 Jan 2018 20:19:52 -0500
+	ndnafzig
+	 IUPUI
+	 ICTC
+	 Phones Walk-in
+	03/14/2018 04:00 PM
+	03/14/2018 10:00 PM
+
+Wed, 10 Jan 2018 20:20:42 -0500
+	ndnafzig
+	 IUPUI
+	 CC
+	 Walk-in
+	03/15/2018 09:00 AM
+	03/15/2018 01:00 PM
+
+Thu, 11 Jan 2018 08:05:40 -0500
+	jones367@iusb.edu
+	 IUPUI
+	 ICTC
+	 Phones
+	01/17/2018 07:00 AM
+	01/17/2018 12:00 PM
+
+Thu, 11 Jan 2018 08:06:09 -0500
+	regonzal
+	 IUPUI
+	 ICTC
+	 Crimson Card
+	01/29/2018 08:00 AM
+	01/29/2018 01:00 PM
+
+Thu, 11 Jan 2018 12:47:11 -0500
+	moheath
+	 IUB
+	 CIB
+	 Phones
+	03/12/2018 08:00 AM
+	03/12/2018 01:30 PM
+
+Thu, 11 Jan 2018 12:48:15 -0500
+	moheath
+	 IUB
+	 CIB
+	 Phones
+	03/13/2018 08:00 AM
+	03/13/2018 06:00 PM
+
+Thu, 11 Jan 2018 12:49:03 -0500
+	moheath
+	 IUB
+	 CIB
+	 Phones
+	03/14/2018 08:00 AM
+	03/14/2018 01:30 PM
+
+Thu, 11 Jan 2018 12:49:57 -0500
+	moheath
+	 IUB
+	 CIB
+	 Phones
+	03/15/2018 08:00 AM
+	03/15/2018 06:00 PM
+
+Thu, 11 Jan 2018 19:05:55 -0500
+	skmccart
+	 IUB
+	 CIB
+	 Phones
+	01/15/2018 04:30 PM
+	01/15/2018 07:30 PM
+
+Fri, 12 Jan 2018 16:43:00 -0500
+	emericks
+	 IUB
+	 LC
+	 Walk-in
+	01/27/2018 12:00 PM
+	01/27/2018 05:00 PM
+
+Fri, 12 Jan 2018 16:43:29 -0500
+	emericks
+	 IUB
+	 LC
+	 Walk-in
+	01/28/2018 12:00 PM
+	01/28/2018 05:00 PM
+
+Fri, 12 Jan 2018 17:44:58 -0500
+	beherman
+	 IUB
+	 CIB
+	 Phones
+	03/15/2018 06:00 PM
+	03/16/2018 12:00 AM
+
+Fri, 12 Jan 2018 17:45:56 -0500
+	beherman
+	 IUB
+	 CIB
+	 Phones
+	03/16/2018 06:00 PM
+	03/17/2018 12:00 AM
+
+Mon, 15 Jan 2018 20:52:33 -0500
+	neskulka
+	 IUPUI
+	 ICTC
+	 Phones
+	02/09/2018 08:00 AM
+	02/09/2018 12:00 PM
+
+Mon, 15 Jan 2018 20:53:56 -0500
+	neskulka
+	 IUPUI
+	 ICTC
+	 Phones
+	02/12/2018 08:00 AM
+	02/12/2018 01:00 PM
+
+Mon, 15 Jan 2018 20:54:47 -0500
+	neskulka
+	 IUPUI
+	 ICTC
+	 Phones
+	02/13/2018 01:00 PM
+	02/13/2018 05:00 PM
+
+Mon, 15 Jan 2018 20:56:25 -0500
+	neskulka
+	 IUPUI
+	 ICTC
+	 Phones
+	02/14/2018 05:00 PM
+	02/14/2018 10:00 PM
+
+Tue, 16 Jan 2018 18:02:03 -0500
+	thlevine
+	 IUB
+	 CIB
+	 Phones
+	03/09/2018 07:00 PM
+	03/10/2018 12:00 AM
+
+Tue, 16 Jan 2018 18:03:01 -0500
+	thlevine
+	 IUB
+	 CIB
+	 Phones
+	03/12/2018 07:00 PM
+	03/13/2018 12:00 AM
+
+Tue, 16 Jan 2018 18:03:44 -0500
+	thlevine
+	 IUB
+	 LC
+	 Walk-in
+	03/13/2018 06:00 PM
+	03/14/2018 12:00 AM
+
+Tue, 16 Jan 2018 18:05:05 -0500
+	thlevine
+	 IUB
+	 CIB
+	 Phones
+	03/14/2018 08:00 PM
+	03/15/2018 12:00 AM
+
+Tue, 16 Jan 2018 18:05:42 -0500
+	thlevine
+	 IUB
+	 CIB
+	 Phones
+	03/16/2018 07:00 PM
+	03/17/2018 12:00 AM
+
+Tue, 16 Jan 2018 23:45:45 -0500
+	megmiddl
+	 IUPUI
+	 ICTC CC
+	 Phones
+	01/24/2018 09:00 AM
+	01/24/2018 12:00 PM
+
+Tue, 16 Jan 2018 23:48:56 -0500
+	megmiddl
+	 IUPUI
+	 ICTC
+	 Phones
+	01/29/2018 09:00 AM
+	01/29/2018 12:00 PM
+
+Tue, 16 Jan 2018 23:58:33 -0500
+	
+	
+	
+	
+	01/16/2018 11:58 PM
+	01/16/2018 11:58 PM
+
+Wed, 17 Jan 2018 00:00:01 -0500
+	megmiddl
+	 IUPUI
+	 ICTC
+	 Phones
+	03/14/2018 09:00 AM
+	03/14/2018 10:00 PM
+
+Wed, 17 Jan 2018 00:01:01 -0500
+	megmiddl
+	 IUPUI
+	 ICTC
+	 Phones
+	03/16/2018 08:00 AM
+	03/16/2018 10:00 PM
+
+Wed, 17 Jan 2018 00:07:34 -0500
+	megmiddl
+	 IUPUI
+	 ICTC
+	 Phones
+	03/30/2018 08:00 AM
+	03/30/2018 10:00 PM
+
+Thu, 18 Jan 2018 14:44:04 -0500
+	tkirtman
+	 IUB
+	 CIB
+	 Supervisor
+	03/12/2018 08:00 AM
+	03/12/2018 04:00 PM
+
+Thu, 18 Jan 2018 14:45:20 -0500
+	tkirtman
+	 IUB
+	 CIB
+	 Supervisor
+	03/13/2018 08:00 AM
+	03/13/2018 05:00 PM
+
+Thu, 18 Jan 2018 14:46:39 -0500
+	tkirtman
+	 IUB
+	 CIB
+	 Supervisor
+	03/14/2018 08:00 AM
+	03/14/2018 04:00 PM
+
+Thu, 18 Jan 2018 14:47:44 -0500
+	tkirtman
+	 IUB
+	 CIB
+	 Supervisor
+	03/15/2018 08:00 AM
+	03/15/2018 04:00 PM
+
+Thu, 18 Jan 2018 14:48:50 -0500
+	tkirtman
+	 IUB
+	 LC
+	 Supervisor
+	03/16/2018 02:00 PM
+	03/16/2018 09:00 PM
+
+Thu, 18 Jan 2018 17:06:49 -0500
+	moso
+	 IUPUI
+	 ICTC
+	 Phones
+	01/25/2018 05:00 PM
+	01/25/2018 10:00 PM
+
+Fri, 19 Jan 2018 08:09:31 -0500
+	stnortha
+	 IUPUI
+	 ICTC
+	 Phones
+	01/28/2018 08:00 AM
+	01/28/2018 01:00 PM
+
+Fri, 19 Jan 2018 09:28:36 -0500
+	twodell
+	 IUB
+	 LC
+	 Walk-in
+	02/05/2018 08:00 AM
+	02/05/2018 12:30 PM
+
+Fri, 19 Jan 2018 14:21:16 -0500
+	mohasana
+	 IUPUI
+	 ICTC
+	 Phones
+	01/23/2018 10:00 AM
+	01/23/2018 02:00 PM
+
+Fri, 19 Jan 2018 14:29:06 -0500
+	mohasana
+	 IUPUI
+	 ICTC
+	 Phones
+	01/25/2018 11:00 AM
+	01/25/2018 03:00 PM
+
+Sat, 20 Jan 2018 20:40:45 -0500
+	cbrock7
+	 IUB
+	 CIB
+	 Phones
+	02/01/2018 09:00 PM
+	02/01/2018 11:00 PM
+
+Sat, 20 Jan 2018 20:42:32 -0500
+	cbrock7
+	 IUB
+	 CIB
+	 Phones
+	02/03/2018 09:00 PM
+	02/04/2018 12:00 AM
+
+Sat, 20 Jan 2018 20:43:36 -0500
+	cbrock7
+	 IUB
+	 CIB
+	 Phones
+	02/05/2018 09:00 PM
+	02/05/2018 11:00 PM
+
+Sat, 20 Jan 2018 20:44:32 -0500
+	cbrock7
+	 IUB
+	 CIB
+	 Phones
+	02/06/2018 09:00 PM
+	02/06/2018 11:00 PM
+
+Sat, 20 Jan 2018 20:46:11 -0500
+	cbrock7
+	 IUB
+	 CIB
+	 Phones
+	02/07/2018 09:00 PM
+	02/07/2018 11:00 PM
+
+Sat, 20 Jan 2018 20:47:42 -0500
+	cbrock7
+	 IUB
+	 CIB
+	 Phones
+	02/08/2018 09:00 PM
+	02/08/2018 11:00 PM
+
+Sat, 20 Jan 2018 21:28:58 -0500
+	cbrock7
+	 IUB
+	 CIB
+	 Phones
+	02/10/2018 09:00 PM
+	02/11/2018 12:00 AM
+
+Sat, 20 Jan 2018 21:30:22 -0500
+	cbrock7
+	 IUB
+	 CIB
+	 Phones
+	02/12/2018 09:00 PM
+	02/12/2018 11:00 PM
+
+Sat, 20 Jan 2018 21:31:57 -0500
+	cbrock7
+	 IUB
+	 CIB
+	 Phones
+	02/13/2018 09:00 PM
+	02/13/2018 11:00 PM
+
+Sat, 20 Jan 2018 21:32:41 -0500
+	cbrock7
+	 IUB
+	 CIB
+	 Phones
+	02/14/2018 09:00 PM
+	02/14/2018 11:00 PM
+
+Sat, 20 Jan 2018 21:33:33 -0500
+	cbrock7
+	 IUB
+	 CIB
+	 Phones
+	02/15/2018 09:00 PM
+	02/15/2018 11:00 PM
+
+Sun, 21 Jan 2018 10:28:06 -0500
+	hudsonjl
+	 IUB
+	 CIB
+	 Supervisor
+	02/18/2018 08:00 AM
+	02/18/2018 06:00 PM
+
+Sun, 21 Jan 2018 15:14:33 -0500
+	kdrudolp
+	 IUPUI
+	 ICTC
+	 Phones
+	01/28/2018 01:30 PM
+	01/28/2018 06:00 PM
+
+Mon, 22 Jan 2018 15:00:55 -0500
+	falee
+	 IUB
+	 CIB
+	 Phones
+	01/24/2018 03:00 PM
+	01/24/2018 08:00 PM
+
+Mon, 22 Jan 2018 16:30:14 -0500
+	nsinghai
+	 IUPUI
+	 ICTC
+	 Phones
+	01/30/2018 11:00 AM
+	01/30/2018 04:00 PM
+
+Mon, 22 Jan 2018 20:45:44 -0500
+	jlamere
+	 IUPUI
+	 ICTC
+	 Phones
+	02/02/2018 12:00 PM
+	02/02/2018 04:00 PM
+
+Tue, 23 Jan 2018 09:59:16 -0500
+	cboyll
+	 IUB
+	 LC
+	 Carry-in
+	04/18/2018 03:00 PM
+	04/18/2018 05:00 PM
+
+Tue, 23 Jan 2018 11:57:04 -0500
+	stnortha
+	 IUPUI
+	 ICTC
+	 Phones
+	01/31/2018 07:00 AM
+	01/31/2018 12:00 PM
+
+Tue, 23 Jan 2018 13:22:48 -0500
+	kbeitvas
+	 IUB
+	 LC
+	 Walk-in
+	01/28/2018 12:00 PM
+	01/28/2018 06:00 PM
+
+Wed, 24 Jan 2018 12:33:26 -0500
+	tilori
+	 IUPUI
+	 ICTC
+	 Phones
+	01/29/2018 02:00 PM
+	01/29/2018 03:00 PM
+
+Wed, 24 Jan 2018 14:30:23 -0500
+	aaabuck
+	 IUB
+	 CIB
+	 Supervisor
+	01/25/2018 08:00 AM
+	01/25/2018 12:00 PM
+
+Wed, 24 Jan 2018 15:05:16 -0500
+	bdfalcon
+	 IUPUI
+	 ICTC
+	 Phones
+	02/06/2018 08:00 AM
+	
+
+Thu, 25 Jan 2018 12:13:46 -0500
+	mcshah
+	 IUPUI
+	 ICTC
+	 Phones
+	03/12/2018 09:00 AM
+	03/12/2018 02:00 PM
+
+Thu, 25 Jan 2018 12:14:56 -0500
+	mcshah
+	 IUPUI
+	 ICTC
+	 Phones
+	03/14/2018 09:00 AM
+	03/14/2018 03:00 PM
+
+Thu, 25 Jan 2018 12:16:04 -0500
+	mcshah
+	 IUPUI
+	 ICTC
+	 Phones
+	03/15/2018 12:00 AM
+	03/15/2018 05:00 PM
+
+Thu, 25 Jan 2018 12:17:12 -0500
+	mcshah
+	 IUPUI
+	 ICTC
+	 Phones
+	03/16/2018 09:00 AM
+	03/16/2018 01:00 PM
+
+Thu, 25 Jan 2018 17:40:31 -0500
+	moso
+	 IUPUI
+	 ICTC
+	 Phones
+	02/01/2018 05:00 PM
+	02/01/2018 10:00 PM
+
+Sat, 27 Jan 2018 16:30:05 -0500
+	rachgibs
+	 IUPUI
+	 ICTC
+	 Phones
+	02/05/2018 01:00 PM
+	02/05/2018 05:00 PM
+
+Mon, 29 Jan 2018 12:22:42 -0500
+	ndnafzig
+	 IUPUI
+	 ICTC
+	 Phones Walk-in
+	02/05/2018 12:00 PM
+	02/05/2018 05:00 PM

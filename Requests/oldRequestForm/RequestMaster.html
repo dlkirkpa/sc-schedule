@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<HTML lang="us">
+  <HEAD>
+  <meta charset="utf-8">
+  <script src="jquery-3.2.1.min.js"></script>
+  <link rel="stylesheet" href="jquery-ui.min.css">
+  <link href="https://fonts.iu.edu/style.css?family=BentonSans:regular,bold|BentonSansCond:regular|GeorgiaPro:regular" media="screen" rel="stylesheet" type="text/css"/>
+  <script src="jquery-ui.min.js"></script>
+  <style> 
+  table, td { 
+	border: 1px solid black;
+	border-collapse: collapse;
+	}
+  th {
+    border: 1px solid black;
+	border-collapse: collapse;
+	cursor: pointer;
+	cursor: hand;
+	}
+  </style>
+  </HEAD>
+  <title> Request Masterlist </title>
+  <BODY>
+  <center> <font face="BentonSans:regular"> 
+<h1> Sub Plea Request Masterlist </h1> </center>
+<br>
+<p><i><small>**Note: Click on the column title to sort</small></i></p>
+  <table Id="ReqMaster" border="1" style="width:100%">
+  <tr>
+	<th onclick="sortTable(0)">Campus <span class="ui-icon ui-icon-arrowthick-2-n-s"></span> </th>
+	<th onclick="sortTable(1)">Location <span class="ui-icon ui-icon-arrowthick-2-n-s"></span></th>
+	<th onclick="sortTable(2)">Shift Position <span class="ui-icon ui-icon-arrowthick-2-n-s"></span></th>
+	<th onclick="sortTable(3)">Start Date <span class="ui-icon ui-icon-arrowthick-2-n-s"></span></th>
+	<th onclick="sortTable(4)">Start Time <span class="ui-icon ui-icon-arrowthick-2-n-s"></span></th>
+	<th onclick="sortTable(5)">End Date <span class="ui-icon ui-icon-arrowthick-2-n-s"></span></th>
+	<th onclick="sortTable(6)">End Time <span class="ui-icon ui-icon-arrowthick-2-n-s"></span></th>
+	<th onclick="sortTable(7)">Submitted by <span class="ui-icon ui-icon-arrowthick-2-n-s"></span></th>
+	<th onclick="sortTable(8)">Reason <span class="ui-icon ui-icon-arrowthick-2-n-s"></span></th>
+	<th onclick="sortTable(9)">Date Submitted <span class="ui-icon ui-icon-arrowthick-2-n-s"></span></th>
+  </tr>
+  <!--Script function below from https://www.w3schools.com/howto/howto_js_sort_table.asp.
+  I modified the code for table = document.getElementById("ReqMaster") to $("ReqMaster") because the
+  jquery call element function is the $ sign. 
+  -->
+<script>
+function sortTable(n) {
+var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+table = $("ReqMaster");
+switching = true;
+dir = "asc";
+while (switching) {
+switching = false;
+rows = $("tr");
+for (i=1; i < (rows.length - 1); i++) {
+shouldSwitch = false;
+x = rows[i].getElementsByTagName("td")[n];
+y = rows[i + 1].getElementsByTagName("td")[n];
+if (dir == "asc") {
+	if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+	shouldSwitch = true;
+	break;
+	}
+   } else if (dir == "desc") {
+   if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+   shouldSwitch = true;
+   break;
+   }
+  }
+ }
+if (shouldSwitch) {
+rows[i].parentNode.insertBefore(rows[i+1], rows[i]);
+switching = true;
+switchcount ++;
+} else {
+if (switchcount == 0 && dir == "asc") {
+	dir = "desc";
+	switching = true;
+	}
+   }
+  }
+ }
+ </script>
+ 
+   
+
+<!-- IUB CIB -->
+<!-- Begin Record 1511901522 Tue Nov 28 15:38:42 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>SA</td>
+	<td>11/28/2017</td>
+	<td>05:00 PM</td>
+	<td>11/28/2017</td>
+	<td>10:00 PM</td>
+	<td>hudsonjl</td>
+	<td>testing, disregard</td>
+	<td>Tue Nov 28 15:38:42 2017</td>
+</tr>
+<!-- End Record 1511901522 Tue Nov 28 15:38:42 2017-->
+<!-- Begin Record 1511901099 Tue Nov 28 15:31:39 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>SA</td>
+	<td>11/28/2017</td>
+	<td>05:00 PM</td>
+	<td>11/28/2017</td>
+	<td>08:00 PM</td>
+	<td>hudsonjl</td>
+	<td>testing, disregard</td>
+	<td>Tue Nov 28 15:31:39 2017</td>
+</tr>
+<!-- End Record 1511901099 Tue Nov 28 15:31:39 2017-->
+<!-- Begin Record 1511901086 Tue Nov 28 15:31:26 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>Phones</td>
+	<td>11/28/2017</td>
+	<td>05:00 PM</td>
+	<td>11/28/2017</td>
+	<td>08:00 PM</td>
+	<td>hudsonjl</td>
+	<td>testing, disregard</td>
+	<td>Tue Nov 28 15:31:26 2017</td>
+</tr>
+<!-- End Record 1511901086 Tue Nov 28 15:31:26 2017-->
+<!-- Begin Record 1511900078 Tue Nov 28 15:14:38 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>SA</td>
+	<td>11/28/2017</td>
+	<td>06:00 PM</td>
+	<td>11/28/2017</td>
+	<td>10:00 PM</td>
+	<td>hudsonjl</td>
+	<td>testing, disregard</td>
+	<td>Tue Nov 28 15:14:38 2017</td>
+</tr>
+<!-- End Record 1511900078 Tue Nov 28 15:14:38 2017-->
+<!-- Begin Record 1511899370 Tue Nov 28 15:02:50 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>SA</td>
+	<td>11/28/2017</td>
+	<td>02:30 AM</td>
+	<td>11/29/2017</td>
+	<td>03:00 AM</td>
+	<td>aaabuck</td>
+	<td>Testing. Disregard</td>
+	<td>Tue Nov 28 15:02:50 2017</td>
+</tr>
+<!-- End Record 1511899370 Tue Nov 28 15:02:50 2017-->
+<!-- Begin Record 1511897758 Tue Nov 28 14:35:58 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>CI, SA</td>
+	<td>11/29/2017</td>
+	<td>12:30 AM</td>
+	<td>11/30/2017</td>
+	<td>01:30 AM</td>
+	<td>aaabuck</td>
+	<td>Testing. Disregard</td>
+	<td>Tue Nov 28 14:35:58 2017</td>
+</tr>
+<!-- End Record 1511897758 Tue Nov 28 14:35:58 2017-->
+<!-- Begin Record 1511896035 Tue Nov 28 14:07:15 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>SA</td>
+	<td>11/29/2017</td>
+	<td>12:30 AM</td>
+	<td>11/30/2017</td>
+	<td>12:30 AM</td>
+	<td>aaabuck</td>
+	<td>Testing. Disregard</td>
+	<td>Tue Nov 28 14:07:15 2017</td>
+</tr>
+<!-- End Record 1511896035 Tue Nov 28 14:07:15 2017-->
+<!-- Begin Record 1511895028 Tue Nov 28 13:50:28 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>SA</td>
+	<td>11/28/2017</td>
+	<td>06:00 PM</td>
+	<td>11/28/2017</td>
+	<td>10:00 PM</td>
+	<td>hudsonjl</td>
+	<td>test</td>
+	<td>Tue Nov 28 13:50:28 2017</td>
+</tr>
+<!-- End Record 1511895028 Tue Nov 28 13:50:28 2017-->
+<!-- Begin Record 1511895017 Tue Nov 28 13:50:17 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>SA</td>
+	<td>11/28/2017</td>
+	<td>06:00 PM</td>
+	<td>11/28/2017</td>
+	<td>10:00 PM</td>
+	<td>hudsonjl</td>
+	<td>test</td>
+	<td>Tue Nov 28 13:50:17 2017</td>
+</tr>
+<!-- End Record 1511895017 Tue Nov 28 13:50:17 2017-->
+<!-- Begin Record 1511895009 Tue Nov 28 13:50:09 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>SA</td>
+	<td>11/28/2017</td>
+	<td>06:00 PM</td>
+	<td>11/28/2017</td>
+	<td>10:00 PM</td>
+	<td>hudsonjl</td>
+	<td>test</td>
+	<td>Tue Nov 28 13:50:09 2017</td>
+</tr>
+<!-- End Record 1511895009 Tue Nov 28 13:50:09 2017-->
+<!-- Begin Record 1511894989 Tue Nov 28 13:49:49 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>SA</td>
+	<td>11/28/2017</td>
+	<td>06:00 PM</td>
+	<td>11/28/2017</td>
+	<td>10:00 PM</td>
+	<td>hudsonjl</td>
+	<td>test</td>
+	<td>Tue Nov 28 13:49:49 2017</td>
+</tr>
+<!-- End Record 1511894989 Tue Nov 28 13:49:49 2017-->
+<!-- Begin Record 1511894928 Tue Nov 28 13:48:48 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>SA</td>
+	<td>11/29/2017</td>
+	<td>01:30 AM</td>
+	<td>11/30/2017</td>
+	<td>02:00 AM</td>
+	<td>aaabuck</td>
+	<td>Testing. Disregard</td>
+	<td>Tue Nov 28 13:48:48 2017</td>
+</tr>
+<!-- End Record 1511894928 Tue Nov 28 13:48:48 2017-->
+<!-- Begin Record 1511894166 Tue Nov 28 13:36:06 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>SA</td>
+	<td>11/29/2017</td>
+	<td>02:30 AM</td>
+	<td>11/30/2017</td>
+	<td>03:00 AM</td>
+	<td>aaabuck</td>
+	<td>Testing. Disregard</td>
+	<td>Tue Nov 28 13:36:06 2017</td>
+</tr>
+<!-- End Record 1511894166 Tue Nov 28 13:36:06 2017-->
+<!-- Begin Record 1511893906 Tue Nov 28 13:31:46 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>SA</td>
+	<td>11/28/2017</td>
+	<td>06:00 PM</td>
+	<td>11/28/2017</td>
+	<td>10:00 PM</td>
+	<td>hudsonjl</td>
+	<td>test</td>
+	<td>Tue Nov 28 13:31:46 2017</td>
+</tr>
+<!-- End Record 1511893906 Tue Nov 28 13:31:46 2017-->
+<!-- Begin Record 1511891912 Tue Nov 28 12:58:32 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>SA</td>
+	<td>11/29/2017</td>
+	<td>02:00 AM</td>
+	<td>11/30/2017</td>
+	<td>01:00 PM</td>
+	<td>aaabuck</td>
+	<td>Testing. Disregard</td>
+	<td>Tue Nov 28 12:58:32 2017</td>
+</tr>
+<!-- End Record 1511891912 Tue Nov 28 12:58:32 2017-->
+<!-- Begin Record 1511890618 Tue Nov 28 12:36:58 2017  -->
+<tr>
+	<td>IUPUI</td>
+	<td>CIB</td>
+	<td>Phones, CI</td>
+	<td>11/28/2017</td>
+	<td>06:00 PM</td>
+	<td>11/28/2017</td>
+	<td>10:00 PM</td>
+	<td>hudsonjl</td>
+	<td>test</td>
+	<td>Tue Nov 28 12:36:58 2017</td>
+</tr>
+<!-- End Record 1511890618 Tue Nov 28 12:36:58 2017-->
+<!-- Begin Record 1511889083 Tue Nov 28 12:11:23 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>SA</td>
+	<td>11/29/2017</td>
+	<td>02:00 AM</td>
+	<td>11/30/2017</td>
+	<td>12:30 PM</td>
+	<td>aaabuck</td>
+	<td>Testing. Disregard</td>
+	<td>Tue Nov 28 12:11:23 2017</td>
+</tr>
+<!-- End Record 1511889083 Tue Nov 28 12:11:23 2017-->
+<!-- Begin Record 1511888411 Tue Nov 28 12:00:11 2017  -->
+<tr>
+	<td>IUPUI</td>
+	<td>CIB</td>
+	<td>Phones, CI</td>
+	<td>11/28/2017</td>
+	<td>06:00 PM</td>
+	<td>11/28/2017</td>
+	<td>10:00 PM</td>
+	<td>hudsonjl</td>
+	<td>test</td>
+	<td>Tue Nov 28 12:00:11 2017</td>
+</tr>
+<!-- End Record 1511888411 Tue Nov 28 12:00:11 2017-->
+<!-- Begin Record 1511888171 Tue Nov 28 11:56:11 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>SA</td>
+	<td>11/29/2017</td>
+	<td>01:00 AM</td>
+	<td>11/30/2017</td>
+	<td>06:30 PM</td>
+	<td>aaabuck</td>
+	<td>Testing. Disregard</td>
+	<td>Tue Nov 28 11:56:11 2017</td>
+</tr>
+<!-- End Record 1511888171 Tue Nov 28 11:56:11 2017-->
+<!-- Begin Record 1511888119 Tue Nov 28 11:55:19 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>SA</td>
+	<td>11/29/2017</td>
+	<td>01:00 AM</td>
+	<td>11/30/2017</td>
+	<td>03:00 AM</td>
+	<td>aaabuck</td>
+	<td>Testing. Disregard</td>
+	<td>Tue Nov 28 11:55:19 2017</td>
+</tr>
+<!-- End Record 1511888119 Tue Nov 28 11:55:19 2017-->
+<!-- Begin Record 1511888014 Tue Nov 28 11:53:34 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>SA</td>
+	<td>11/28/2017</td>
+	<td>01:30 AM</td>
+	<td>11/29/2017</td>
+	<td>10:30 AM</td>
+	<td>aaabuck</td>
+	<td>Testing. Disregard</td>
+	<td>Tue Nov 28 11:53:34 2017</td>
+</tr>
+<!-- End Record 1511888014 Tue Nov 28 11:53:34 2017-->
+<!-- Begin Record 1511887595 Tue Nov 28 11:46:35 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>SA</td>
+	<td>11/29/2017</td>
+	<td>02:00 AM</td>
+	<td>11/30/2017</td>
+	<td>05:30 AM</td>
+	<td>aaabuck</td>
+	<td>Testing. Disregard</td>
+	<td>Tue Nov 28 11:46:35 2017</td>
+</tr>
+<!-- End Record 1511887595 Tue Nov 28 11:46:35 2017-->
+<!-- Begin Record 1511885089 Tue Nov 28 11:04:49 2017  -->
+<tr>
+	<td>IUPUI</td>
+	<td>CIB</td>
+	<td>Phones, CI</td>
+	<td>11/28/2017</td>
+	<td>06:00 PM</td>
+	<td>11/28/2017</td>
+	<td>10:00 PM</td>
+	<td>hudsonjl</td>
+	<td>test</td>
+	<td>Tue Nov 28 11:04:49 2017</td>
+</tr>
+<!-- End Record 1511885089 Tue Nov 28 11:04:49 2017-->
+<!-- Begin Record 1511884720 Tue Nov 28 10:58:40 2017  -->
+<tr>
+	<td>IUPUI</td>
+	<td>CIB, LC</td>
+	<td>CI</td>
+	<td>11/28/2017</td>
+	<td>06:00 PM</td>
+	<td>11/28/2017</td>
+	<td>10:00 PM</td>
+	<td>hudsonjl</td>
+	<td>test</td>
+	<td>Tue Nov 28 10:58:40 2017</td>
+</tr>
+<!-- End Record 1511884720 Tue Nov 28 10:58:40 2017-->
+<!-- Begin Record 1511642940 Sat Nov 25 15:49:00 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>SA</td>
+	<td>11/29/2017</td>
+	<td>02:00 AM</td>
+	<td>11/30/2017</td>
+	<td>10:30 AM</td>
+	<td>aaabuck</td>
+	<td>Testing</td>
+	<td>Sat Nov 25 15:49:00 2017</td>
+</tr>
+<!-- End Record 1511642940 Sat Nov 25 15:49:00 2017-->
+<!-- Begin Record 1511642499 Sat Nov 25 15:41:39 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>SA</td>
+	<td>11/27/2017</td>
+	<td>01:00 AM</td>
+	<td>11/28/2017</td>
+	<td>12:00 AM</td>
+	<td>aaabuck</td>
+	<td>Testing</td>
+	<td>Sat Nov 25 15:41:39 2017</td>
+</tr>
+<!-- End Record 1511642499 Sat Nov 25 15:41:39 2017-->
+<!-- Begin Record 1511641964 Sat Nov 25 15:32:44 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>SA</td>
+	<td>11/25/2017</td>
+	<td>01:30 AM</td>
+	<td>11/26/2017</td>
+	<td>03:00 AM</td>
+	<td>aaabuck</td>
+	<td>Testing</td>
+	<td>Sat Nov 25 15:32:44 2017</td>
+</tr>
+<!-- End Record 1511641964 Sat Nov 25 15:32:44 2017-->
+<!-- Begin Record 1511641742 Sat Nov 25 15:29:02 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>SA</td>
+	<td>11/25/2017</td>
+	<td>02:30 AM</td>
+	<td>11/25/2017</td>
+	<td>02:30 AM</td>
+	<td>aaabuck</td>
+	<td>Testing</td>
+	<td>Sat Nov 25 15:29:02 2017</td>
+</tr>
+<!-- End Record 1511641742 Sat Nov 25 15:29:02 2017-->
+<!-- Begin Record 1511641593 Sat Nov 25 15:26:33 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>SA</td>
+	<td>11/25/2017</td>
+	<td>02:00 AM</td>
+	<td>11/26/2017</td>
+	<td>02:30 AM</td>
+	<td>aaabuck</td>
+	<td>Testing</td>
+	<td>Sat Nov 25 15:26:33 2017</td>
+</tr>
+<!-- End Record 1511641593 Sat Nov 25 15:26:33 2017-->
+<!-- Begin Record 1511641427 Sat Nov 25 15:23:47 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>SA</td>
+	<td>11/26/2017</td>
+	<td>01:30 AM</td>
+	<td>11/27/2017</td>
+	<td>03:00 AM</td>
+	<td>aaabuck</td>
+	<td>Testing</td>
+	<td>Sat Nov 25 15:23:47 2017</td>
+</tr>
+<!-- End Record 1511641427 Sat Nov 25 15:23:47 2017-->
+<!-- Begin Record 1511640970 Sat Nov 25 15:16:10 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>SA</td>
+	<td>11/25/2017</td>
+	<td>02:30 AM</td>
+	<td>11/26/2017</td>
+	<td>03:00 AM</td>
+	<td>aaabuck</td>
+	<td>Testing</td>
+	<td>Sat Nov 25 15:16:10 2017</td>
+</tr>
+<!-- End Record 1511640970 Sat Nov 25 15:16:10 2017-->
+<!-- Begin Record 1511640928 Sat Nov 25 15:15:28 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>SA</td>
+	<td>11/25/2017</td>
+	<td>01:30 AM</td>
+	<td>11/26/2017</td>
+	<td>02:00 PM</td>
+	<td>aaabuck</td>
+	<td>Testing</td>
+	<td>Sat Nov 25 15:15:28 2017</td>
+</tr>
+<!-- End Record 1511640928 Sat Nov 25 15:15:28 2017-->
+<!-- Begin Record 1511640900 Sat Nov 25 15:15:00 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>SA</td>
+	<td>11/25/2017</td>
+	<td>01:30 AM</td>
+	<td>11/26/2017</td>
+	<td>02:00 PM</td>
+	<td>aaabuck</td>
+	<td>Testing</td>
+	<td>Sat Nov 25 15:15:00 2017</td>
+</tr>
+<!-- End Record 1511640900 Sat Nov 25 15:15:00 2017-->
+<!-- Begin Record 1511640605 Sat Nov 25 15:10:05 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>SA</td>
+	<td>11/28/2017</td>
+	<td>02:00 AM</td>
+	<td>11/29/2017</td>
+	<td>02:00 AM</td>
+	<td>aaabuck</td>
+	<td>Testing</td>
+	<td>Sat Nov 25 15:10:05 2017</td>
+</tr>
+<!-- End Record 1511640605 Sat Nov 25 15:10:05 2017-->
+<!-- Begin Record 1511640425 Sat Nov 25 15:07:05 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>SA</td>
+	<td>11/27/2017</td>
+	<td>02:30 AM</td>
+	<td>11/28/2017</td>
+	<td>10:30 PM</td>
+	<td>aaabuck</td>
+	<td>Testing</td>
+	<td>Sat Nov 25 15:07:05 2017</td>
+</tr>
+<!-- End Record 1511640425 Sat Nov 25 15:07:05 2017-->
+<!-- Begin Record 1511627001 Sat Nov 25 11:23:21 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>SA</td>
+	<td>11/28/2017</td>
+	<td>05:00 PM</td>
+	<td>11/29/2017</td>
+	<td>05:30 PM</td>
+	<td>aaabuck</td>
+	<td>Testing</td>
+	<td>Sat Nov 25 11:23:21 2017</td>
+</tr>
+<!-- End Record 1511627001 Sat Nov 25 11:23:21 2017-->
+<!-- Begin Record 1511626735 Sat Nov 25 11:18:55 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>SA</td>
+	<td>11/25/2017</td>
+	<td>08:30 PM</td>
+	<td>11/26/2017</td>
+	<td>11:00 PM</td>
+	<td>aaabuck</td>
+	<td>Testing</td>
+	<td>Sat Nov 25 11:18:55 2017</td>
+</tr>
+<!-- End Record 1511626735 Sat Nov 25 11:18:55 2017-->
+<!-- Begin Record 1511625802 Sat Nov 25 11:03:22 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>SA</td>
+	<td>11/27/2017</td>
+	<td>02:00 AM</td>
+	<td>11/28/2017</td>
+	<td>03:30 PM</td>
+	<td>aaabuck</td>
+	<td>Testing</td>
+	<td>Sat Nov 25 11:03:22 2017</td>
+</tr>
+<!-- End Record 1511625802 Sat Nov 25 11:03:22 2017-->
+<!-- Begin Record 1510758188 Wed Nov 15 10:03:08 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>SA</td>
+	<td>11/15/2017</td>
+	<td>02:30 AM</td>
+	<td>11/16/2017</td>
+	<td>04:00 PM</td>
+	<td>aaabuck</td>
+	<td>Testing. Disregard</td>
+	<td>Wed Nov 15 10:03:08 2017</td>
+</tr>
+<!-- End Record 1510758188 Wed Nov 15 10:03:08 2017-->
+<!-- Begin Record 1510757877 Wed Nov 15 09:57:57 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB, LC, IMU</td>
+	<td>SA</td>
+	<td>11/22/2017</td>
+	<td>01:30 AM</td>
+	<td>11/23/2017</td>
+	<td>09:00 AM</td>
+	<td>aaabuck</td>
+	<td>Testing. Disregard</td>
+	<td>Wed Nov 15 09:57:57 2017</td>
+</tr>
+<!-- End Record 1510757877 Wed Nov 15 09:57:57 2017-->
+<!-- Begin Record 1510695122 Tue Nov 14 16:32:02 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>SA</td>
+	<td>11/21/2017</td>
+	<td>02:00 AM</td>
+	<td>11/22/2017</td>
+	<td>02:30 PM</td>
+	<td>aaabuck</td>
+	<td>Testing again, disregard</td>
+	<td>Tue Nov 14 16:32:02 2017</td>
+</tr>
+<!-- End Record 1510695122 Tue Nov 14 16:32:02 2017-->
+<!-- Begin Record 1510336780 Fri Nov 10 12:59:40 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>SA</td>
+	<td>11/10/2017</td>
+	<td>12:00 AM</td>
+	<td>11/11/2017</td>
+	<td>02:30 AM</td>
+	<td>aaabuck</td>
+	<td>Testing. Disregard</td>
+	<td>Fri Nov 10 12:59:40 2017</td>
+</tr>
+<!-- End Record 1510336780 Fri Nov 10 12:59:40 2017-->
+<!-- Begin Record 1510330059 Fri Nov 10 11:07:39 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>SA</td>
+	<td>12/16/2017</td>
+	<td>08:00 AM</td>
+	<td>12/16/2017</td>
+	<td>04:00 PM</td>
+	<td>acosborn</td>
+	<td>Taking a week off in December</td>
+	<td>Fri Nov 10 11:07:39 2017</td>
+</tr>
+<!-- End Record 1510330059 Fri Nov 10 11:07:39 2017-->
+<!-- Begin Record 1510330028 Fri Nov 10 11:07:08 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>LC</td>
+	<td>CI, SA</td>
+	<td>12/15/2017</td>
+	<td>08:00 AM</td>
+	<td>12/15/2017</td>
+	<td>04:00 PM</td>
+	<td>acosborn</td>
+	<td>Taking a week off in December; also my birthday</td>
+	<td>Fri Nov 10 11:07:08 2017</td>
+</tr>
+<!-- End Record 1510330028 Fri Nov 10 11:07:08 2017-->
+<!-- Begin Record 1510329975 Fri Nov 10 11:06:15 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>LC</td>
+	<td>SA</td>
+	<td>12/14/2017</td>
+	<td>02:00 PM</td>
+	<td>12/14/2017</td>
+	<td>10:00 PM</td>
+	<td>acosborn</td>
+	<td>Taking a week off in December</td>
+	<td>Fri Nov 10 11:06:15 2017</td>
+</tr>
+<!-- End Record 1510329975 Fri Nov 10 11:06:15 2017-->
+<!-- Begin Record 1510329936 Fri Nov 10 11:05:36 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB, LC</td>
+	<td>CI, SA</td>
+	<td>12/13/2017</td>
+	<td>08:00 AM</td>
+	<td>12/13/2017</td>
+	<td>04:00 PM</td>
+	<td>acosborn</td>
+	<td>Taking a week off in December</td>
+	<td>Fri Nov 10 11:05:36 2017</td>
+</tr>
+<!-- End Record 1510329936 Fri Nov 10 11:05:36 2017-->
+<!-- Begin Record 1510329886 Fri Nov 10 11:04:46 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB, IMU</td>
+	<td>Walkin, SA</td>
+	<td>12/12/2017</td>
+	<td>08:00 AM</td>
+	<td>12/12/2017</td>
+	<td>04:00 PM</td>
+	<td>acosborn</td>
+	<td>Taking a week off in December</td>
+	<td>Fri Nov 10 11:04:46 2017</td>
+</tr>
+<!-- End Record 1510329886 Fri Nov 10 11:04:46 2017-->
+<!-- Begin Record 1510254893 Thu Nov  9 14:14:53 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>SA</td>
+	<td>11/16/2017</td>
+	<td>08:00 AM</td>
+	<td>11/16/2017</td>
+	<td>04:00 PM</td>
+	<td>tkirtman</td>
+	<td>Joaquim José Inácio, Viscount of Inhaúma, (1808–1869) was a naval officer, politician and monarchist of the Empire of Brazil. After Brazilian independence in 1822, he enlisted in the armada (navy) and participated in the subduing of secessionist rebellions, including the Confederation of the Equator. He helped quell a military mutiny in 1831 and saw action in the Sabinada rebellion (1837–1838) and the Ragamuffin War (1840–1844). In 1849 he was given command of the fleet that was instrumental in subduing the Praieira revolt, the last rebellion in imperial Brazil.</td>
+	<td>Thu Nov  9 14:14:53 2017</td>
+</tr>
+<!-- End Record 1510254893 Thu Nov  9 14:14:53 2017-->
+<!-- Begin Record 1510254614 Thu Nov  9 14:10:14 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>SA</td>
+	<td>11/16/2017</td>
+	<td>12:00 AM</td>
+	<td>11/17/2017</td>
+	<td>08:00 PM</td>
+	<td>aaabuck</td>
+	<td>Testing again, disregard</td>
+	<td>Thu Nov  9 14:10:14 2017</td>
+</tr>
+<!-- End Record 1510254614 Thu Nov  9 14:10:14 2017-->
+<!-- Begin Record 1510254430 Thu Nov  9 14:07:10 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>SA</td>
+	<td>11/09/2017</td>
+	<td>01:00 AM</td>
+	<td>11/09/2017</td>
+	<td>10:30 AM</td>
+	<td>aaabuck</td>
+	<td>Testing. Disregard</td>
+	<td>Thu Nov  9 14:07:10 2017</td>
+</tr>
+<!-- End Record 1510254430 Thu Nov  9 14:07:10 2017-->
+<!-- Begin Record 1510253843 Thu Nov  9 13:57:23 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>SA</td>
+	<td>11/23/2017</td>
+	<td>08:00 AM</td>
+	<td>11/23/2017</td>
+	<td>04:00 PM</td>
+	<td>tkirtman</td>
+	<td>TEST 2</td>
+	<td>Thu Nov  9 13:57:23 2017</td>
+</tr>
+<!-- End Record 1510253843 Thu Nov  9 13:57:23 2017-->
+<!-- Begin Record 1510253654 Thu Nov  9 13:54:14 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>SA</td>
+	<td>11/21/2017</td>
+	<td>12:00 PM</td>
+	<td>11/22/2017</td>
+	<td>08:00 PM</td>
+	<td>tkirtman</td>
+	<td>TEST</td>
+	<td>Thu Nov  9 13:54:14 2017</td>
+</tr>
+<!-- End Record 1510253654 Thu Nov  9 13:54:14 2017-->
+<!-- Begin Record 1510253608 Thu Nov  9 13:53:28 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>SA</td>
+	<td>11/21/2017</td>
+	<td>12:00 PM</td>
+	<td>11/22/2017</td>
+	<td>08:00 PM</td>
+	<td>tkirtman</td>
+	<td>TEST</td>
+	<td>Thu Nov  9 13:53:28 2017</td>
+</tr>
+<!-- End Record 1510253608 Thu Nov  9 13:53:28 2017-->
+<!-- Begin Record 1510182114 Wed Nov  8 18:01:54 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>SA</td>
+	<td>11/08/2017</td>
+	<td>12:30 AM</td>
+	<td>11/08/2017</td>
+	<td>11:00 PM</td>
+	<td>npwyatt</td>
+	<td>IUPUI	CIB	Phones	11/20/2017	08:30 AM	11/20/2017	05:30 PM	aaabuck	Sort away!	Tue Nov 7 11:29:33 2017</td>
+	<td>Wed Nov  8 18:01:54 2017</td>
+</tr>
+<!-- End Record 1510182114 Wed Nov  8 18:01:54 2017-->
+<!-- Begin Record 1510180874 Wed Nov  8 17:41:14 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB, LC, IMU</td>
+	<td>Phones, Chat, SA</td>
+	<td>11/29/2017</td>
+	<td>04:00 AM</td>
+	<td>11/29/2017</td>
+	<td>02:00 PM</td>
+	<td>aaabuck</td>
+	<td>Testing mobile submission  please disregard</td>
+	<td>Wed Nov  8 17:41:14 2017</td>
+</tr>
+<!-- End Record 1510180874 Wed Nov  8 17:41:14 2017-->
+<!-- Begin Record 1510072173 Tue Nov  7 11:29:33 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>Phones</td>
+	<td>11/17/2017</td>
+	<td>08:30 AM</td>
+	<td>11/17/2017</td>
+	<td>05:30 PM</td>
+	<td>aaabuck</td>
+	<td>Testing. Disregard</td>
+	<td>Tue Nov  7 11:29:33 2017</td>
+</tr>
+<!-- End Record 1510072173 Tue Nov  7 11:29:33 2017-->
+<!-- Begin Record 1510072127 Tue Nov  7 11:28:47 2017  -->
+<tr>
+	<td>IUB</td>
+	<td>CIB</td>
+	<td>Phones, Chat</td>
+	<td>11/15/2017</td>
+	<td>08:30 AM</td>
+	<td>11/15/2017</td>
+	<td>05:30 PM</td>
+	<td>aaabuck</td>
+	<td>Testing. Disregard</td>
+	<td>Tue Nov  7 11:28:47 2017</td>
+</tr>
+<!-- End Record 1510072127 Tue Nov  7 11:28:47 2017-->
+<tr>
+	<td>IUPUI</td>
+	<td>CIB</td>
+	<td>Phones</td>
+	<td>11/20/2017</td>
+	<td>08:30 AM</td>
+	<td>11/20/2017</td>
+	<td>05:30 PM</td>
+	<td>aaabuck</td>
+	<td>Sort away!</td>
+	<td>Tue Nov  7 11:29:33 2017</td>
+</tr>
+
+	
+</html>

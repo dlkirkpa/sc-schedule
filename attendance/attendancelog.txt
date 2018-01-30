@@ -1,0 +1,84 @@
+
+Thu, 25 Jan 2018 10:30:53 -0500
+	dlkirkpa
+	01/26/2018
+	IUB
+	Absence
+	No
+	one more test, i do it for the logs
+	dlkirkpa
+	tardies: 0
+	absences: 1
+	no call: 0
+
+Thu, 25 Jan 2018 11:25:16 -0500
+	chparson
+	01/25/2018
+	IUPUI
+	Absence
+	No
+	Testing....
+	chparson
+	tardies: 0
+	absences: 1
+	no call: 0
+
+Fri, 26 Jan 2018 08:28:55 -0500
+	thscott
+	01/26/2018
+	IUB
+	Absence
+	No
+	Thom called this morning and left a voicemail saying that he was sick and would not be in for his 8:00am-5:00pm shift.
+	kgstout
+	tardies: 0
+	absences: 3
+	no call: 1
+
+Fri, 26 Jan 2018 08:31:42 -0500
+	tjpratt
+	01/26/2018
+	IUB
+	Tardy
+	No
+	Tim was late for his 8:00am shift. He made it in at 8:14am.
+	kgstout
+	tardies: 1
+	absences: 0
+	no call: 0
+
+Fri, 26 Jan 2018 08:33:11 -0500
+	ssendrow
+	01/26/2018
+	IUB
+	Tardy
+	No
+	Sam called at 8:10am to say he was running late for his 8:00am shift. He made it in at 8:25am.
+	kgstout
+	tardies: 1
+	absences: 0
+	no call: 0
+
+Sat, 27 Jan 2018 20:28:15 -0500
+	schellna
+	01/27/2018
+	IUB
+	Absence
+	No
+	Nathan had to leave early (8:23) due to illness
+	kjherman
+	tardies: 0
+	absences: 3
+	no call: 1
+
+Sun, 28 Jan 2018 08:36:49 -0500
+	kbeitvas
+	01/28/2018
+	IUB
+	Absence
+	No
+	Kamran emailed in that he would not make his shift today
+	dlkirkpa
+	tardies: 0
+	absences: 2
+	no call: 0

@@ -1,0 +1,182 @@
+<HTML lang="us">
+  <HEAD>
+  <meta charset="utf-8">
+  <script src="jquery-3.2.1.min.js"></script>
+  <link rel="stylesheet" href="jquery-ui.min.css">
+  <link rel="stylesheet" href="jquery.timepicker.min.css">
+  <script src="external/jquery/jquery.js"></script>
+  <script src="jquery-ui.min.js"></script>
+  <script src="jquery.timepicker.min.js"></script>
+  <style> 
+  table, th, { 
+	border: 1px solid black;
+	border-collapse: collapse;
+	}
+  </style>
+    
+  </HEAD>
+   <title> Sub Plea Request Form </title>
+  <BODY>
+  <CENTER> <FONT FACE="Arial"> 
+  <TABLE style="background-color:#EDEBEB" BORDER="1">
+  <TR>
+  <TD>
+  <CENTER> 
+  <FONT FACE="Arial"> <B>Sub Plea Request Form</B></FONT>
+  </CENTER>
+ 
+  <P> <FONT FACE="Arial">
+  <FORM  METHOD="POST" ACTION="transform.cgi"> 
+  <P> <FONT FACE="Arial"> Select your Campus:</FONT> </P> 
+  
+  <BLOCKQUOTE>
+ 
+ <FONT FACE="Arial">
+ <INPUT TYPE="radio" NAME="campus" VALUE="IUB">
+ IUB<BR>
+ <INPUT TYPE="radio" NAME="campus" VALUE="IUPUI">
+ IUPUI<BR>
+  </BLOCKQUOTE> 
+ 
+  <P> <FONT FACE="Arial"> Shift Location:<small><i>Choose all that apply</i></small></FONT> </P> 
+ 
+  <BLOCKQUOTE>
+  <FONT FACE="Arial">
+  <INPUT TYPE="checkbox" NAME="location" VALUE="CIB"> 
+  CIB<BR> 
+  <INPUT TYPE="checkbox" NAME="location" VALUE="LC"> 
+  LC<BR>
+  <Input TYPE="checkbox" NAME="location" VALUE="IMU">
+  IMU<BR>
+  <INPUT TYPE="checkbox" NAME="location" VALUE="ICTC">
+  ICTC<BR>
+  <INPUT TYPE="checkbox" NAME="location" VALUE="CC">
+  Campus Center<BR>
+  </FONT> 
+  </BLOCKQUOTE> 
+  <P> <FONT FACE="Arial"> Shift Position:
+	<small><i>Choose all that apply</i></small></FONT> 
+  </P>
+  <BLOCKQUOTE>
+  <FONT FACE="Arial">
+  <INPUT TYPE="checkbox" NAME="shiftposition" id="Phones" VALUE="Phones">
+  Phones<BR>
+  <input type="checkbox" name="shiftposition" id="Chat" value="Chat">
+  Chat<BR>
+  <INPUT TYPE="checkbox" NAME="shiftposition" id="Walkin" VALUE="Walkin">
+  Walk-in<BR>
+  <INPUT type="checkbox" Name="shiftposition" id="CrimsonCard" value="CrimsonCard">
+  Crimson Card<BR>
+  <INPUT TYPE="checkbox" NAME="shiftposition" id="CI" VALUE="CI">
+  Carry-in<BR>
+  <INPUT TYPE="checkbox" NAME="shiftposition" id="SA" VALUE="SA">
+  SA / Dispatch / Project<BR>
+  </FONT>
+  </BLOCKQUOTE>
+ <!-- The below code is designed to assign a point value for shift for easier logic control -->
+ <p> <input type="hidden" name='stPtsTest' id='stPtsTest' value="3"></p>
+ <script>
+ $(document).ready(function (){
+    var shiftPoints = 0;
+    	if ($('#SA').is(':checked'))
+        {
+          shiftPoints += 10;
+        }
+      else
+        {
+          shiftPoints += 1;
+        }
+
+    $('#stPtsTest').val(shiftPoints);
+});
+ </script>
+  <!-- End point value assignment logic -->
+  <P> <FONT FACE="Arial"> <TABLE BORDER=0 > 
+  <TR> 
+  <TD>  
+  <P> <FONT FACE="Arial"> Start Date:</FONT> </P> 
+  </TD> 
+  <TD> 
+  <P> <FONT FACE="Arial">
+ <script>
+ // Used the solution from Tin Man on page below to have the minDate for the enddate dynamically update based upon the selection of the startdate. -->
+ // https://stackoverflow.com/questions/4419804/restrict-date-in-jquery-datepicker-based-on-another-datepicker-or-textbox -->
+ $(function() {$("#startdate").datepicker( {
+		dateFormat: "mm/dd/yy",
+		maxDate: "+6m",
+		minDate: "+0",
+		onSelect: function(dateText, inst) {
+			$("#enddate").datepicker("option", "minDate",
+				$("#startdate").datepicker("getDate"));
+			// The below code is modified from selu220 used to set the max end date to +1 of the start date -->
+			// Found here, https://stackoverflow.com/questions/2021788/how-to-add-a-day-to-a-date-using-jquery-datepicker -->
+			var date = $("#startdate").datepicker("getDate");
+			var tempEndDate = new Date(date);
+			var endMax = new Date(tempEndDate.getFullYear(), tempEndDate.getMonth(), tempEndDate.getDate()+1 );
+			$("#enddate").datepicker("option", "maxDate", endMax);
+			}
+		});
+	});
+  </script>
+ <!-- set the below date text inputs to read only to ensure that the start and end dates followed the logic as described above as uses could manually type in nonsensical dates.
+ This will be adjusted with JS later -->
+ <INPUT TYPE="text" NAME="startdate" id="startdate" placeholder="mm/dd/yyyy" readonly> </FONT> </P> 
+  </TD> 
+  </TR> 
+  <TR> 
+  <TD>  
+  <P> <FONT FACE="Arial"> Start Time:</FONT> </P> 
+  </TD> 
+  <TD> 
+  <P> <FONT FACE="Arial">
+  <script>$(function() {$("#starttime").timepicker();});</script>
+  <INPUT TYPE="text" NAME="starttime" id="starttime" placeholder="hh:mm am/pm"> </FONT> </P> 
+  </TD> 
+  </TR> 
+  <TR> 
+  <TD> 
+  <P> <FONT FACE="Arial"> End Date:</FONT> </P> 
+  </TD> 
+  <TD> 
+  <script>
+  $(function() {$("#enddate").datepicker( {
+		dateFormat: "mm/dd/yy",
+		});
+	});
+ </script>
+  <P> <FONT FACE="Arial">
+  <INPUT TYPE="text" NAME="enddate" id="enddate" placeholder="mm/dd/yyyy" readonly> </FONT> </P> 
+  </TD> 
+  </TR> 
+  <TR>
+  <TD>
+  <P> <FONT FACE="Arial"> End Time: </FONT> </P> 
+  </TD> 
+  <TD> 
+  <P> <FONT FACE="Arial">
+  <script>$(function() {$("#endtime").timepicker();});</script>
+  <INPUT TYPE="text" NAME="endtime" id="endtime" placeholder="hh:mm am/pm"> </FONT> </P> 
+  </TD> 
+  </TR> 
+  <TR> 
+  <TD> 
+  <P> <FONT FACE="Arial"> IU Email:</FONT> </P> 
+  </TD> 
+  <TD> 
+  <P> <FONT FACE="Arial"> <INPUT TYPE="text" NAME="email" VALUE="" SIZE=30 placeholder="username@campus.edu (No Umail)"> </FONT> </P> 
+  </TD> 
+  </TR> 
+   <TR> 
+  <TD> 
+  <P> <FONT FACE="Arial"> Comment:</FONT> </P> 
+  </TD> 
+  <TD> 
+  <P> <FONT FACE="Arial"> <INPUT TYPE=textarea NAME=reason SIZE=30 rows="10" cols="30" placeholder="Reason for sub (optional)"> </FONT> </P> 
+  </TD> 
+  </TR> 
+  </TABLE> 
+  </FONT> </P> 
+  
+  <CENTER> <FONT FACE="Arial">
+  <INPUT TYPE=submit NAME=Submit VALUE="Submit Form"> </FONT> </CENTER> 
+  </FORM> </FONT> </P>
