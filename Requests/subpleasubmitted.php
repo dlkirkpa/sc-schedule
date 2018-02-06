@@ -21,14 +21,20 @@ $supervisor_check = $_POST["supervisorCheck"];
 
 
 //Validated variables, the foreach loops run the validation functions for the arrays
+//I also set the constants here, they are the all-caps variables.  These are what the validated variables check against.  If one of the inputs has to change (e.g. a new walk-in location) then edit the constant arrays to add the new input.
+
+$VALID_CAMPUS = array('IUB', 'IUPUI');
+$VALID_POSITION = array('Phones', 'Walk-in', 'Crimson Card', 'Carry-in', 'Supervisor');
+$VALID_LOCATION = array('CIB', 'LC', 'IMU' ,'ICTC', 'CC');
+
 $username = validate_text($username);
 $comments = validate_text($comments);
-$campus = validate_campus($campus);
+$campus = validate_array_intersect($campus, $VALID_CAMPUS);
 foreach ($position as $value) {
-	validate_position($value);
+	validate_in_array($value, $VALID_POSITION);
 }
 foreach ($location as $value) {
-	validate_location($value);
+	validate_in_array($value, $VALID_LOCATION);
 }
 $supervisor_check = validate_supervisor_check($supervisor_check);
 
@@ -46,29 +52,20 @@ $shift_end = date_format($shift_end, "m/d/Y h:i A");
 
 //Validation Functions, scrubs inputs to make sure they're secure. 
 
-function validate_campus($data) {
-	if ($data == "IUB" || "IUPUI"){
-		return $data;
-	} else {
-		echo("Invalid Campus Input");
+function validate_array_intersect($needles, $haystack) {
+	if(!!array_intersect($needles, $haystack) == false) {
+		echo("Invalid Input");
 		trigger_error("Invalid Input", E_USER_ERROR);
+	} else {
+		return $needles;
 	}
 }
 
-function validate_location($data) {
-	if ($data == "CIB" || $data == "LC" || $data == "IMU" || $data == "ICTC" || $data == "CC") {
-		return $data;
+function validate_in_array($needle, $haystack) {
+	if (in_array($needle, $haystack)) {
+		return $needle;
 	} else {
 		echo("Invalid Location Input");
-		trigger_error("Invalid Input", E_USER_ERROR);
-	}
-}
-
-function validate_position($data) {
-	if ($data == "Phones" || $data == "Walk-in" || $data == "Crimson Card" || $data == "Carry-in" || $data == "Supervisor") {
-		return $data;
-	} else {
-		echo("Invalid Position Input");
 		trigger_error("Invalid Input", E_USER_ERROR);
 	}
 }
