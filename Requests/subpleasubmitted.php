@@ -65,7 +65,7 @@ function validate_in_array($needle, $haystack) {
 	if (in_array($needle, $haystack)) {
 		return $needle;
 	} else {
-		echo("Invalid Location Input");
+		echo("Invalid Input");
 		trigger_error("Invalid Input", E_USER_ERROR);
 	}
 }
