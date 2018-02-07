@@ -13,6 +13,7 @@
 //it is a data type array that needs to be parsed into a string.
 //This is done farther down in the code.
 
+
 $campus = $_POST["campus"];
 $assignee = $_POST["assignee"];
 $date = $_POST["instanceDate"];
@@ -26,11 +27,17 @@ $no_call_int = $_POST["nocallint"];
 
 
 //Validated variables, the foreach loops run the validation functions for the arrays
+//I also set the constants here, they are the all-caps variables.  These are what the validated variables check against.  If one of the inputs has to change (e.g. a new walk-in location) then edit the constant arrays to add the new input.
+
+$VALID_CAMPUS = array('IUB', 'IUPUI');
+$VALID_INSTANCE_EVENT = array('Absence', 'Tardy');
+$VALID_NO_CALL = array('Yes', 'No');
+
 $assignee = validate_text($assignee);
-$campus = validate_campus($campus);
+$campus = validate_array($campus, $VALID_CAMPUS);
 $description = validate_text($description);
-$instance_event = validate_instance_event($instance_event);
-$no_call = validate_no_call($no_call);
+$instance_event = validate_array($instance_event, $VALID_INSTANCE_EVENT);
+$no_call = validate_array($no_call, $VALID_NO_CALL);
 $submitted_by = validate_text($submitted_by);
 $tardies = validate_text($tardies);
 $absences = validate_text($absences);
@@ -43,12 +50,11 @@ $date = date_format($date, "m/d/Y");
 
 //Valdation Functions, scrubs inputs to make sure they're secure.
 
-function validate_campus($data) {
-	if ($data == "IUB" || "IUPUI"){
-		return $data;
+function validate_array($needles, $haystack) {
+	if(!!array_intersect($needles, $haystack) == false) {
+		echo("Invalid Input");
 	} else {
-		echo("Invalid Campus Input");
-		trigger_error("Invalid Input", E_USER_ERROR);
+		return $needles;
 	}
 }
 
@@ -57,24 +63,6 @@ function validate_text($data) {
 	$data = stripslashes($data);
 	$data = htmlspecialchars($data);
 	return $data;
-}
-
-function validate_instance_event($data) {
-	if ($data == "Absence" || "Tardy") {
-		return $data;
-	} else {
-		echo("Invalid Instance Event");
-		trigger_error("Invalid Input", E_USER_ERROR);
-	}
-}
-
-function validate_no_call($data) {
-	if ($data == "Yes" || "No") {
-		return $data;
-	} else {
-		echo("Invalid No Call");
-		trigger_error("Invalid Input", E_USER_ERROR);
-	}
 }
 
 //email to and CC variables getting set
