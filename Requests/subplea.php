@@ -1,4 +1,4 @@
-<?php //include("cas_with_ldap_auth.php"); ?>
+<?php include("cas_with_ldap_auth.php"); ?>
 <!DOCTYPE html>
 <html>
 	<head>
