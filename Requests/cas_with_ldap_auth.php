@@ -99,8 +99,8 @@ function get_groups($user) { //source code here: https://samjlevy.com/php-ldap-m
     $ldap_dn = "ou=Accounts,dc=ads,dc=iu,dc=edu";
  
     // Active Directory user for querying
-    $query_user = "schedule@".$ldap_host;
-    $password = "SharePoint requests will be missed!";
+    $query_user = "[username]@".$ldap_host;
+    $password = "[password]";
  
     // Connect to AD
     $ldap = ldap_connect($ldap_host) or die("Could not connect to LDAP");
