@@ -1,9 +1,9 @@
 <?php
- 
+
 session_save_path('/ip/schedule/sessions'); //UPDATE TO YOUR SESSIONS PATH
 session_start();
- 
- 
+
+
 //THIS FUNCTION GETS THE CURRENT URL
 function curPageURL()
 {
@@ -86,7 +86,7 @@ function cas_authenticate(){
   }
 }//END CAS FUNCTION
 
- 
+
 cas_authenticate();
 
 //BEGIN LDAP AUTHENTICATION
@@ -94,39 +94,39 @@ cas_authenticate();
 function get_groups($user) { //source code here: https://samjlevy.com/php-ldap-membership/
     // Active Directory server
     $ldap_host = "ads.iu.edu";
- 
+
     // Active Directory DN, base path for our querying user
     $ldap_dn = "ou=Accounts,dc=ads,dc=iu,dc=edu";
- 
+
     // Active Directory user for querying
-    $query_user = "schedule@".$ldap_host;
-    $password = "SharePoint requests will be missed!";
- 
+    $query_user = "[username]@".$ldap_host;
+    $password = "[password]";
+
     // Connect to AD
     $ldap = ldap_connect($ldap_host) or die("Could not connect to LDAP");
     ldap_bind($ldap,$query_user,$password) or die("Could not bind to LDAP");
- 
+
     // Search AD
     $results = ldap_search($ldap,$ldap_dn,"(samaccountname=$user)",array("memberof","primarygroupid"));
     $entries = ldap_get_entries($ldap, $results);
-    
+
     // No information found, bad user
     if($entries['count'] == 0) return false;
-    
+
     // Get groups and primary group token
     $output = $entries[0]['memberof'];
     $token = $entries[0]['primarygroupid'][0];
-    
+
     // Remove extraneous first entry
     array_shift($output);
-    
+
     // We need to look up the primary group, get list of all groups
     $results2 = ldap_search($ldap,$ldap_dn,"(objectcategory=group)",array("distinguishedname","primarygrouptoken"));
     $entries2 = ldap_get_entries($ldap, $results2);
-    
+
     // Remove extraneous first entry
     array_shift($entries2);
-    
+
     // Loop through and find group with a matching primary group token
     foreach($entries2 as $e) {
         if($e['primarygrouptoken'][0] == $token) {
@@ -136,7 +136,7 @@ function get_groups($user) { //source code here: https://samjlevy.com/php-ldap-m
             break;
         }
     }
- 
+
     return $output;
 }
 
@@ -166,5 +166,5 @@ function in_array_any($needles, $haystack) {
 if(!in_array_any($approved_groups, $groups_explode) == true) {
     die("You are not authorized to access this page.");
 }
- 
+
   ?>
