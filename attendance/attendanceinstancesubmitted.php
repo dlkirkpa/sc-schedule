@@ -8,8 +8,8 @@
 	<body>
 <?php
 
-//Unvalidated variables.  One thing to note in the HTML file, 
-//if the name of the variable has bracket (e.g. campus[]) then 
+//Unvalidated variables.  One thing to note in the HTML file,
+//if the name of the variable has bracket (e.g. campus[]) then
 //it is a data type array that needs to be parsed into a string.
 //This is done farther down in the code.
 
@@ -158,7 +158,7 @@ fclose($append_to_log);
 		<h2>Attendance Instance Submitted</h2>
 		You have successfully submitted an attendance instance.  Please check your inbox to confirm that you have received the attendance instance.  If you have not received the instance within 5 minutes, please email me.<br><br>
 
-		To make another instance <a href="attendanceinstance.php">click here</a>.
+		To make another instance <a href="attendanceinstance.php">click here</a>. Thank you.
 	</form>
 </div>
 
